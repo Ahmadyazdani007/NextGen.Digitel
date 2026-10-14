@@ -15,6 +15,7 @@ import Testimonials from './components/Testimonials';
 import ProjectEstimator from './components/ProjectEstimator';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 export default function App() {
   const [activeModalService, setActiveModalService] = useState(null);
@@ -165,6 +166,9 @@ export default function App() {
           onStartSimilar={handleStartSimilarProject}
         />
       )}
+
+      {/* Floating WhatsApp Quick Action Button */}
+      <FloatingWhatsApp />
 
     </div>
   );

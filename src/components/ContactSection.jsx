@@ -179,17 +179,17 @@ Generated at: ${new Date().toLocaleString()}
                 </a>
 
                 <a
-                  href="https://wa.me/?text=Hello%20NextGen.Digitel,%20I%20would%20like%20to%20discuss%20a%20new%20project."
+                  href="https://wa.me/96876209365?text=Hello%20NextGen.Digitel,%20I%20would%20like%20to%20discuss%20a%20new%20project."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3.5 p-3.5 rounded-xl bg-navy-950/60 border border-white/5 hover:border-cyan/40 text-slate-200 hover:text-white transition-all group"
+                  className="flex items-center gap-3.5 p-3.5 rounded-xl bg-navy-950/60 border border-white/5 hover:border-emerald-500/50 hover:bg-emerald-500/10 text-slate-200 hover:text-white transition-all group"
                 >
-                  <div className="w-10 h-10 rounded-lg bg-cyan/15 flex items-center justify-center text-cyan group-hover:scale-105 transition-transform">
+                  <div className="w-10 h-10 rounded-lg bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 flex items-center justify-center group-hover:scale-105 transition-transform">
                     <MessageCircle className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="text-[10px] font-mono text-muted uppercase block">Instant Messaging</span>
-                    <span className="text-sm font-mono font-medium">Chat via WhatsApp</span>
+                    <span className="text-[10px] font-mono text-emerald-400 uppercase block font-semibold">WhatsApp Instant Chat</span>
+                    <span className="text-sm font-mono font-medium text-white">+968 7620 9365</span>
                   </div>
                 </a>
 

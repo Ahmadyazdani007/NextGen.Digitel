@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Terminal, Send, ArrowUp, Github, Linkedin, Twitter, Dribbble, Check } from 'lucide-react';
+import { Terminal, Send, ArrowUp, Github, Linkedin, Twitter, Dribbble, Check, MessageCircle } from 'lucide-react';
 
 export default function Footer({ onOpenService }) {
   const [newsletterEmail, setNewsletterEmail] = useState('');
@@ -60,6 +60,16 @@ export default function Footer({ onOpenService }) {
 
             {/* Social Links */}
             <div className="flex items-center gap-2 pt-2">
+              <a
+                href="https://wa.me/96876209365?text=Hello%20NextGen.Digitel,%20I%20would%20like%20to%20discuss%20a%20new%20project."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 hover:bg-emerald-500 hover:text-white transition-all shadow-sm"
+                aria-label="Chat on WhatsApp +968 7620 9365"
+                title="WhatsApp: +968 7620 9365"
+              >
+                <MessageCircle className="w-4 h-4" />
+              </a>
               <a
                 href="https://github.com"
                 target="_blank"
